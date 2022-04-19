@@ -3,7 +3,6 @@
     width:100%;
     background-color:#fafafa;
 }
-
 .wrapper .container{
     max-width:1000px;
     margin:0px auto;
@@ -24,7 +23,6 @@
     width:100%;
     
 }
-
 @media (min-width: 992px) {
     .wrapper .content_item {
         width:50%;
@@ -37,8 +35,6 @@
     margin:0px 0px 0px 0px;
     font-size: 24px;
     font-weight: normal;
-}
-.heading2 {
     display: flex;
     align-items: flex-end;
 }
@@ -47,6 +43,5 @@
     margin-right: 0;
 }
 .sns_list a {
-    
     margin: 10px;
 }
