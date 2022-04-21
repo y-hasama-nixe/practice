@@ -10,20 +10,29 @@
 }
 .heading1 {
     text-align: center;
+    font-weight: bold;
 }
 /* content */
-@media (min-width: 992px) {
+/* 画面幅768以上のときに適用 */
+@media (min-width: 768px) {
     .wrapper .container .content {
         display: flex;
         align-items: center;
         justify-content: center;
     }
 }
+/* 画面幅767までは適用 */
+@media (max-width: 767px) {
+    .wrapper .container .content {
+        text-align: center;
+    }  
+}
 .wrapper .content_item {
     width:100%;
     
 }
-@media (min-width: 992px) {
+/* 画面幅768以上のときに適用 */
+@media (min-width: 768px) {
     .wrapper .content_item {
         width:50%;
     }
@@ -37,6 +46,21 @@
     font-weight: normal;
     display: flex;
     align-items: flex-end;
+}
+/* 画面幅767までは適用 */
+@media (max-width: 767px) {
+    .wrapper .text .heading2 {
+        margin: 0 20px;
+        display: block;        
+    }
+    p {
+        margin: 0 20px;
+        font-size: 90%;
+    }
+    hr {
+        margin: 15px auto;
+        max-width: 335px;
+    }
 }
 .sns_list {
     margin-left: auto;
